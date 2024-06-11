@@ -7,7 +7,11 @@
 # Aplication
  Deployed page: https://jeaq01.github.io/My-blog/
  Github repo: https://github.com/jeaq01/My-blog.git
-[index.html.webm](https://github.com/jeaq01/My-blog/assets/168700847/700ed079-ca98-47c3-9927-edb1a23337a9)
+ 
+
+https://github.com/jeaq01/My-blog/assets/168700847/2f8f0712-5b24-425c-bd09-d5afb22b086e
+
+
 
 
 MIT license
