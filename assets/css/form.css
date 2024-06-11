@@ -1,0 +1,22 @@
+.button {
+    justify-content: right;
+    align-items: center;
+}
+
+.mb-3 {
+    border: solid;
+}
+
+.footer {
+    font-style:bold;
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;   
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
