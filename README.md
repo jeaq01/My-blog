@@ -5,8 +5,10 @@
 ## The website is meant to display data that is stored in localStorage into blog.html it also includes a header, with a light mode/dark mode toggle, and a "Back" button so the user can input more entries.
 
 # Aplication
- 
-[video]= 
+ Deployed page: https://jeaq01.github.io/My-blog/
+ Github repo: https://github.com/jeaq01/My-blog.git
+[index.html.webm](https://github.com/jeaq01/My-blog/assets/168700847/700ed079-ca98-47c3-9927-edb1a23337a9)
+
 
 MIT license
 
