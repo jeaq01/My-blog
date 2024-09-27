@@ -1,4 +1,3 @@
-# Description
 # Personal Blog
 ##  A personal that is presented with the landing page containing a form with labels and inputs for username, blog title, and blog content.
 # Usage
@@ -9,7 +8,8 @@
  Github repo: https://github.com/jeaq01/My-blog.git
  
 
-https://github.com/jeaq01/My-blog/assets/168700847/2f8f0712-5b24-425c-bd09-d5afb22b086e
+
+https://github.com/user-attachments/assets/414b0e91-1b10-46ce-8f2f-ed5f5ac36a0b
 
 
 
