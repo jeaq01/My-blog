@@ -1,24 +1,26 @@
 var color = document.querySelector("i")
 console.log (color)
-let blogPosts;
-if (localStorage.getItem ("blogPosts")){
-   blogPosts = JSON.parse(localStorage.getItem("blogPosts"))
-}
-else {blogPosts = []}
+color.dataset.mode = localStorage.getItem("colorMode")|| "light"
+let blogPosts = JSON.parse (localStorage.getItem("blogPosts")) || []
+
+
 color.addEventListener("click",(i)=>{ 
    if (color.dataset.mode ==="light"){
       color.dataset.mode ="dark"
       document.body.style.backgroundColor = "black";
       document.body.style.color ="white";
+      localStorage.setItem("colorMode","dark");
    } else {
       color.dataset.mode ="light"
       document.body.style.backgroundColor = "white";
       document.body.style.color ="black";
+      localStorage.setItem("colorMode","light");
    }
+ 
 console.log("hi")}
 );
 
-const blogForm = document.querySelector("form")
+const blogForm = document.querySelector("#blogForm")
 console.log (blogForm)
 blogForm.addEventListener("submit",(e)=>{ 
  e.preventDefault()
@@ -36,4 +38,11 @@ blogForm.addEventListener("submit",(e)=>{
 document.location.replace("blog.html")
 })
 
+if (color.dataset.mode ==="dark"){
+   document.body.style.backgroundColor = "black";
+   document.body.style.color ="white";
+} else {
+   document.body.style.backgroundColor = "white";
+   document.body.style.color ="black";
+}
 
